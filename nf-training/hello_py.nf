@@ -29,7 +29,7 @@ process CONVERTTOUPPER {
     """
     #!/usr/bin/env python
     with open("$y") as f:
-        print(f.read().upper())
+        print(f.read()[::-1])
     """
 }
 
